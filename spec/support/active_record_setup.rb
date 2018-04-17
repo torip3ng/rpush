@@ -35,6 +35,7 @@ require 'generators/templates/rpush_3_0_0_updates'
 require 'generators/templates/rpush_3_0_1_updates'
 require 'generators/templates/rpush_3_1_0_add_pushy'
 require 'generators/templates/rpush_3_1_1_updates'
+require 'generators/templates/add_apnsp8'
 
 migrations = [
   AddRpush,
@@ -46,6 +47,8 @@ migrations = [
   Rpush301Updates,
   Rpush310AddPushy,
   Rpush311Updates
+  Rpush301Updates,
+  AddApnsp8
 ]
 
 unless ENV['TRAVIS']
